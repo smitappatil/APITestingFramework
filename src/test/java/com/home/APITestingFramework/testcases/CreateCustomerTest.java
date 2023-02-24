@@ -19,6 +19,8 @@ import io.restassured.response.Response;
 
 public class CreateCustomerTest extends Basetest {
 
+	
+	// Create customer with valid auth key
 	@Test (dataProviderClass = DataUtil.class, dataProvider = "data")
 	public void validateCreateCustomerAPIWithValidSecretkey(Hashtable<String, String> data) {
 
@@ -33,6 +35,7 @@ public class CreateCustomerTest extends Basetest {
 		
 	}
 	
+	// Create customer with invalid auth key
 	@Test (dataProviderClass = DataUtil.class , dataProvider = "data")
 	public void validateCreateCustomerAPIWithInValidSecretkey(Hashtable<String, String> data) {
 		
