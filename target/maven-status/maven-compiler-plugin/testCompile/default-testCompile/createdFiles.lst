@@ -1,0 +1,11 @@
+com\home\APITestingFramwwork\extentListener\ExtentListeners.class
+com\home\APITestingFramwwork\extentListener\ExtentManager.class
+com\home\APITestingFramework\testcases\CreateCustomerTest.class
+com\home\APITestingFramework\APIs\CreateCustomerAPI.class
+com\home\APITestingFramework\utilities\TestParameterization.class
+com\home\APITestingFramework\basetest\Basetest.class
+com\home\APITestingFramework\utilities\ExcelReader.class
+com\home\APITestingFramework\utilities\TestUtil.class
+com\home\APITestingFramework\APIs\DeleteCustomerAPI.class
+com\home\APITestingFramework\testcases\DeleteCustomerTest.class
+com\home\APITestingFramework\utilities\DataUtil.class

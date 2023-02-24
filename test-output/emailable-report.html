@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Create Customer API Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">4,181</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Delete Customer API Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">577</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num attn">4</th><th class="num">4,758</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Create Customer API Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.home.APITestingFramework.testcases.CreateCustomerTest</td><td><a href="#m0">validateCreateCustomerAPIWithInValidSecretkey</a></td><td rowspan="2">1677217630953</td><td rowspan="2">3245</td></tr><tr class="failedeven"><td><a href="#m1">validateCreateCustomerAPIWithInValidSecretkey</a></td></tr><tr><th colspan="4">Create Customer API Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.home.APITestingFramework.testcases.CreateCustomerTest</td><td><a href="#m2">validateCreateCustomerAPIWithValidSecretkey</a></td><td rowspan="3">1677217634232</td><td rowspan="3">596</td></tr><tr class="passedeven"><td><a href="#m3">validateCreateCustomerAPIWithValidSecretkey</a></td></tr><tr class="passedeven"><td><a href="#m4">validateCreateCustomerAPIWithValidSecretkey</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Delete Customer API Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.home.APITestingFramework.testcases.DeleteCustomerTest</td><td><a href="#m5">deleteCustomerWithValidCustomerId</a></td><td rowspan="2">1677217635718</td><td rowspan="2">555</td></tr><tr class="failedeven"><td><a href="#m6">deleteCustomerWithValidCustomerId</a></td></tr></tbody>
+</table>
+<h2>Create Customer API Test</h2><h3 id="m0">com.home.APITestingFramework.testcases.CreateCustomerTest#validateCreateCustomerAPIWithInValidSecretkey</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{email=smitacustone@gmail.com, name=Smita Patil, description=This is a test customer one for API Testing Framework}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [200] but found [401]
+	at com.home.APITestingFramework.testcases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretkey(CreateCustomerTest.java:44)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.home.APITestingFramework.testcases.CreateCustomerTest#validateCreateCustomerAPIWithInValidSecretkey</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{email=anilcusttwo@gmail.com, name=Anil Patil, description=This is a test customer two for API Testing Framework}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [200] but found [401]
+	at com.home.APITestingFramework.testcases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretkey(CreateCustomerTest.java:44)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.home.APITestingFramework.testcases.CreateCustomerTest#validateCreateCustomerAPIWithValidSecretkey</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{email=smitacustone@gmail.com, name=Smita Patil, description=This is a test customer one for API Testing Framework}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.home.APITestingFramework.testcases.CreateCustomerTest#validateCreateCustomerAPIWithValidSecretkey</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{email=anilcusttwo@gmail.com, name=Anil Patil, description=This is a test customer two for API Testing Framework}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.home.APITestingFramework.testcases.CreateCustomerTest#validateCreateCustomerAPIWithValidSecretkey</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{email=aradhya@gmail.com, name=Aradhya Patil, description=Third customer for API testing framework}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Delete Customer API Test</h2><h3 id="m5">com.home.APITestingFramework.testcases.DeleteCustomerTest#deleteCustomerWithValidCustomerId</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{id=cus_NPiez6RuJoSF3f}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: id key is not present in response expected [true] but found [false]
+	at com.home.APITestingFramework.testcases.DeleteCustomerTest.deleteCustomerWithValidCustomerId(DeleteCustomerTest.java:44)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.home.APITestingFramework.testcases.DeleteCustomerTest#deleteCustomerWithValidCustomerId</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{id=cus_NPieq7cBd7uLpA}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: id key is not present in response expected [true] but found [false]
+	at com.home.APITestingFramework.testcases.DeleteCustomerTest.deleteCustomerWithValidCustomerId(DeleteCustomerTest.java:44)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
